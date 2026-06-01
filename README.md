@@ -1,4 +1,12 @@
-# Potato Disease Classification
+# AgroCure-Potato Disease Classification
+This is an end-to-end deep learning system designed to identify crop diseases.
+It features a convolutional neural network (CNN) trained on the PlantVillage dataset to classify potato leaf health.
+The core model is optimized and converted into TF Lite format for highly efficient, low-latency edge inference.
+A robust backend is built using FastAPI and TensorFlow Serving to handle real-time prediction requests via REST API.
+The user interface includes a responsive React.js web application for seamless image uploads and instant diagnostics.
+A cross-platform React Native mobile app is provided to enable field-ready, on-the-go leaf disease detection.
+The entire architecture is structured for cloud scalability and is easily deployable using GCP Cloud Functions.
+
 
 ## Setup for Python:
 
