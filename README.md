@@ -4,7 +4,6 @@ It features a convolutional neural network (CNN) trained on the PlantVillage dat
 The core model is optimized and converted into TF Lite format for highly efficient, low-latency edge inference.
 A robust backend is built using FastAPI and TensorFlow Serving to handle real-time prediction requests via REST API.
 The user interface includes a responsive React.js web application for seamless image uploads and instant diagnostics.
-A cross-platform React Native mobile app is provided to enable field-ready, on-the-go leaf disease detection.
 The entire architecture is structured for cloud scalability and is easily deployable using GCP Cloud Functions.
 
 
@@ -36,26 +35,6 @@ npm audit fix
 4. Copy `.env.example` as `.env`.
 
 5. Change API url in `.env`.
-
-## Setup for React-Native app
-
-1. Go to the [React Native environment setup](https://reactnative.dev/docs/environment-setup), then select `React Native CLI Quickstart` tab.  
-
-2. Install dependencies
-
-```bash
-cd mobile-app
-yarn install
-```
-
-  - 2.1 Only for mac users
-```bash
-cd ios && pod install && cd ../
-```
-
-3. Copy `.env.example` as `.env`.
-
-4. Change API url in `.env`.
 
 ## Training the Model
 
