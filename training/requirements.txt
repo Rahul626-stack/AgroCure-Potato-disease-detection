@@ -1,0 +1,5 @@
+matplotlib
+numpy
+notebook
+tensorflow-model-optimization
+tensorflow
